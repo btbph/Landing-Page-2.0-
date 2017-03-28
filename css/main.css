@@ -1,0 +1,97 @@
+.page{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*------------Header------------------*/
+.header{
+	height: 805px;
+	background-color: #eff0f2;
+	color: #505050;
+	text-align: center;
+}
+.header_hamburger{
+	float: right;
+	margin: 80px 146px;
+}
+.header_hamburger:hover{
+	cursor: pointer;
+}
+
+.header_logo{
+	float:left;
+	padding: 63px 150px;
+
+}
+.greating{
+	padding-top: 297px;
+	width: 1005px;
+	margin: 0 auto;
+}
+
+.greating_text{
+	font-weight: bold;
+	height: 50px;
+	font-size: 50px;
+}
+
+.greating-text_last-word{
+	background-color: #b2f2ee;
+}
+
+
+.header_button{
+	border: 1px solid;
+	width: 230px;
+	height: 52px;
+	margin: 150px auto;
+}
+
+.button_text{
+	position: relative;
+	top:30%;
+}
+
+.header_button:hover{
+	background-color: #505050;
+	color: #eff0f2;
+	cursor: pointer;
+	border-color:  #eff0f2;
+}
+
+.header_image{
+	position: relative;
+	left:77%;
+	bottom:18%;
+	width: 82px;
+}
+
+/*----------First Page-------------*/
+.firstPage{
+	background-color: #f8fafa;
+	height: 980px;
+}
+
+.firstPage__header{
+	text-align: center;
+}
+
+.firstPage__header_text-firstline{
+	padding-top: 130px;
+}
+
+.firstPage__header_text-secondline{
+	color: #5e5f5f;
+	margin-top: 20px;
+}
+
+.firstPage__content-container{
+	/*background-color: purple;*/
+	display: flex;
+	flex-direction: row-reverse;
+}
+.content-container__slider{
+	background-color: purple;
+}
+.flex_item{
+	margin: auto;
+}
