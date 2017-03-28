@@ -85,13 +85,22 @@
 }
 
 .firstPage__content-container{
-	/*background-color: purple;*/
+	margin-top: 152px;
 	display: flex;
-	flex-direction: row-reverse;
 }
 .content-container__slider{
 	background-color: royalblue;
 }
 .flex_item{
 	margin: auto;
+}
+.text_header{
+	font-weight: bold;
+}
+
+.text_small{
+	margin:35px 0;
+	color: #6e6f6f;
+	font-size: 10pt;
+	line-height: 1.75;
 }
